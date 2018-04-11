@@ -1,0 +1,37 @@
+@import "./news/index.scss";
+
+body {
+  background-color: $color-grey;
+  font-family: "Tajawal", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.container {
+  border-color: 1px solid black;
+}
+
+header {
+  background-color: $color-white;
+
+  .headerbody {
+    padding: 10px;
+    color: $color-brand;
+  }
+
+  .headerbottom {
+    background-color: $color-brand;
+    color: $color-grey;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+.content {
+  background-color: $color-white;
+  padding: 20px;
+}
